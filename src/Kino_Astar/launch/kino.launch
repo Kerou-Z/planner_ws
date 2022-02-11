@@ -2,25 +2,25 @@
 	<!-- planner -->
 	<!-- <rosparam file="$(find global_planner)/cfg/planner.yaml" />-->
 	<node pkg="Kino_Astar" type="plan_manage_node" name="plan_manager" output="screen" />
-	    <param name="search/max_tau" value="0.6" type="double"/>
-	    <param name="search/init_max_tau" value="0.8" type="double"/>
-	    <param name="search/max_vel" value="3.0" type="double"/>
-	    <param name="search/max_acc" value="2.0" type="double"/>
-	    <param name="search/w_time" value="10.0" type="double"/>
-	    <param name="search/horizon" value="7.0" type="double"/>
-	    <param name="search/lambda_heu" value="5.0" type="double"/>
-	    <param name="search/resolution_astar" value="0.1" type="double"/>
-	    <param name="search/time_resolution" value="0.8" type="double"/>
-	    <param name="search/margin" value="0.2" type="double"/>
-	    <param name="search/allocate_num" value="100000" type="int"/>
-	    <param name="search/check_num" value="10" type="int"/>
+	<param name="search/max_tau" value="0.6" type="double"/>
+	<param name="search/init_max_tau" value="0.8" type="double"/>
+	<param name="search/max_vel" value="3.0" type="double"/>
+	<param name="search/max_acc" value="2.0" type="double"/>
+	<param name="search/w_time" value="10.0" type="double"/>
+	<param name="search/horizon" value="7.0" type="double"/>
+	<param name="search/lambda_heu" value="5.0" type="double"/>
+	<param name="search/resolution_astar" value="0.1" type="double"/>
+	<param name="search/time_resolution" value="0.8" type="double"/>
+	<param name="search/margin" value="0.2" type="double"/>
+	<param name="search/allocate_num" value="100000" type="int"/>
+	<param name="search/check_num" value="20" type="int"/>
 	<param name="search/vel_margin" value="0.2" type="double"/>
-<param name="map/collision_box_x" value="1" type="double"/>
-<param name="map/collision_box_y" value="1" type="double"/>
-<param name="map/collision_box_z" value="0.6" type="double"/>
+	<param name="map/collision_box_x" value="1" type="double"/>
+	<param name="map/collision_box_y" value="1" type="double"/>
+	<param name="map/collision_box_z" value="0.6" type="double"/>
 
 
- 	<param name="map/map_resolution" value="0.05" type="double"/>
+	<param name="map/map_resolution" value="0.05" type="double"/>
 
 
 
